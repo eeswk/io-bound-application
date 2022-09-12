@@ -14,3 +14,10 @@ spring:
     username: guest
     password: guest
     port: 5672
+
+  data:
+    elasticsearch:
+      hosts: 10.146.0.3,10.146.0.4,10.146.0.5,10.146.0.6
+      port: 9200
+
+
